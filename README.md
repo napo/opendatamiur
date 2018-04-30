@@ -17,7 +17,7 @@
   ```
   - su linux
     ```bash
-.      env/bin/activate
+       . env/bin/activate
     ``` 
 - installare i pacchetti necessari
   ```bash
