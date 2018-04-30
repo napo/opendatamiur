@@ -16,9 +16,9 @@
     source activate env
   ```
   - su linux
-    ```bash
-       . env/bin/activate
-    ``` 
+  ```bash
+     source env/bin/activate
+  ``` 
 - installare i pacchetti necessari
   ```bash
      pip install -r requirements.txt
