@@ -1,29 +1,4 @@
-# Gli opendata delle scuole italiane
-## attraverso python: jupyter notebook e pandas
+# Tutorial per imparare python/pandas investigando i dati del MIUR
 
-- preparare l'ambiente
-  - su windows 
-  ```bash 
-     conda create -n env python=3.7 anaconda
-  ```
-  - su linux
-  ```bash
-     virtualenv -p /usr/bin/python3 env
-   ```
-- entrare nell'ambiente
-  - su windows
-  ```bash
-    source activate env
-  ```
-  - su linux
-  ```bash
-     source env/bin/activate
-  ``` 
-- installare i pacchetti necessari
-  ```bash
-     pip install -r requirements.txt
-  ```
-- avviare jupyter notebook
-  ```bash
-     jupyter notebook
-  ```
+Il tutorial è stato sviluppato all'interno dell'evento ["Laboratorio sulle competenze Open Data all’Opificio Golinelli"](http://www.ervet.it/?p=13032)
+
