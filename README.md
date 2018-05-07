@@ -96,7 +96,7 @@ per fare questo abbiamo creato una [funzione](#funzionepython)
 ```python
    nometabella.nomecolonna.unique()
 ```
-### contare quante volte si ripetono i valori di una colonna
+### contare il numero di volte in cui compare ogni valore della colonna
 ```python
    nometabella.groupby(nometabella.nomecolonna).size()
 ```
