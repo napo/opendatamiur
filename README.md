@@ -36,15 +36,6 @@ questi i moduli usati
      import geocode
      import folium
 ```
-### caricare un file csv da un server remoto e trasformarlo in DataFrame pandas
-per fare questo abbiamo creato una [funzione](#funzionepython)
-
-```python
-   def tabellaMIUR(url):
-        datiremoti = requests.get(url).content
-        tabella = panda.read_csv(io.StringIO(datiremoti.decode('utf-8')))
-        return tabella
-```
 ### metodi per interrogare un DataFrame (tabella) pandas
 (nell'esempio *nometabella*)
 
